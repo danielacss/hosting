@@ -1,0 +1,234 @@
+z
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web de Alimentación Saludable</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        /* Estilo para el encabezado */
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+        /* Estilo para el menú */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            background-color: #333;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            background-color: #ff6347;
+        }
+
+        /* Estilo para las secciones */
+        main {
+            padding: 40px;
+        }
+
+        h2 {
+            color: #ff6347;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .content-section {
+            margin-bottom: 40px;
+        }
+
+        /* Estilo para las imágenes */
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        /* Estilo para los videos */
+        .video iframe {
+            width: 100%;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+        /* Estilo para las tablas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ff6347;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        /* Estilo para el pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Marquee */
+        marquee {
+            font-size: 1.5em;
+            color: #ff6347;
+        }
+
+        /* Estilo para el Google Map */
+        .map iframe {
+            width: 100%;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Alimentación Saludable</h1>
+        <p>Consejos, videos y recetas para una vida saludable</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#consejos">Consejos</a></li>
+            <li><a href="#recetas">Recetas</a></li>
+            <li><a href="#mapa">Mapa</a></li>
+            <li><a href="#tabla">Tabla de Nutrientes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Marquee -->
+        <marquee>¡Mantente saludable! ¡Sigue nuestros consejos y recetas!</marquee>
+
+        <div id="videos" class="content-section">
+            <h2>Videos sobre Alimentación</h2>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/c/SaludAlimentaria" target="_blank">Ver más videos</a>
+        </div>
+
+        <div id="consejos" class="content-section">
+            <h2>Consejos Nutricionales</h2>
+            <div class="image">
+                <img src="https://via.placeholder.com/1000x600" alt="Consejos Nutricionales" />
+            </div>
+            <ul>
+                <li>Come alimentos frescos y naturales.</li>
+                <li>Evita las grasas saturadas y el azúcar en exceso.</li>
+                <li>Realiza comidas equilibradas con proteínas, carbohidratos y fibra.</li>
+                <li>No te olvides de tomar agua suficiente durante el día.</li>
+            </ul>
+        </div>
+
+        <div id="recetas" class="content-section">
+            <h2>Recetas Saludables</h2>
+            <div class="image">
+                <img src="https://via.placeholder.com/1000x600" alt="Recetas Saludables" />
+            </div>
+            <p>Prueba nuestra receta de Ensalada Mediterránea. Es deliciosa y saludable.</p>
+            <a href="https://www.recetas.com/ensalada-mediterranea" target="_blank">Ver receta completa</a>
+        </div>
+
+        <div id="mapa" class="content-section">
+            <h2>Ubicación de Tiendas de Alimentos Saludables</h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2500000000003!2d144.96315731531568!3d-37.81362797975147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d434d273b3b%3A0x5045675218ce6e0!2zVGFuYSBMZWFk!5e0!3m2!1ses!2ses!4v1598797485831!5m2!1ses!2ses" allowfullscreen=""></iframe>
+            </div>
+        </div>
+
+        <div id="tabla" class="content-section">
+            <h2>Tabla de Nutrientes</h2>
+            <table>
+                <tr>
+                    <th>Alimento</th>
+                    <th>Calorías</th>
+                    <th>Proteínas (g)</th>
+                    <th>Carbohidratos (g)</th>
+                </tr>
+                <tr>
+                    <td>Manzana</td>
+                    <td>52</td>
+                    <td>0.3</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>Banano</td>
+                    <td>89</td>
+                    <td>1.1</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Espinaca</td>
+                    <td>23</td>
+                    <td>2.9</td>
+                    <td>3.6</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Alimentación Saludable | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
